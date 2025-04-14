@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Task Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+    <div class="container">
+      <button id="logoutBtn" class="logout-btn">Logout</button>
+      <h1>Daily Task Manager</h1>
+      <div class="input-group">
+        <input type="text" id="taskInput" placeholder="Digite a nova tarefa">
+        <select id="priorityInput" aria-label="Escolha a prioridade da tarefa">
+          <option value="1">Baixa</option>
+          <option value="2">Média</option>
+          <option value="3">Alta</option>
+        </select>
+        <button id="addTaskBtn">Adicionar Tarefa</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+    <script src="taskManager.js"></script>
+  </body>
+  
+</html>
